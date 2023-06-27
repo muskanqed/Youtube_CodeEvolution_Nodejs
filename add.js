@@ -1,5 +1,3 @@
-
-
 // module.exports = (a,b)
 module.exports.add = (a, b) => {
   return a + b;

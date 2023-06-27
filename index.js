@@ -38,6 +38,13 @@
 // const superman = new superHero("Superman");
 // console.log(superman.getName());
 
-const data = require("./data.json");
+const PizzaShop = require("./events");
 
-console.log(data);
+const pizzashop = new PizzaShop();
+
+pizzashop.on("order", (size, topping) => {
+  console.log(`the pizza is ready of ${size} and ${topping}`);
+});
+
+pizzashop.order("large", "mushroom");
+pizzashop.displayOrderNumber();
