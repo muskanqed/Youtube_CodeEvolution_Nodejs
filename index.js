@@ -38,13 +38,13 @@
 // const superman = new superHero("Superman");
 // console.log(superman.getName());
 
-const PizzaShop = require("./events");
+// const PizzaShop = require("./events");
 
-const pizzashop = new PizzaShop();
+// const pizzashop = new PizzaShop();
 
-pizzashop.on("order", (size, topping) => {
-  console.log(`the pizza is ready of ${size} and ${topping}`);
-});
+// pizzashop.on("order", (size, topping) => {
+//   console.log(`the pizza is ready of ${size} and ${topping}`);
+// });
 
-pizzashop.order("large", "mushroom");
-pizzashop.displayOrderNumber();
+// pizzashop.order("large", "mushroom");
+// pizzashop.displayOrderNumber();
