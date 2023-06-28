@@ -38,13 +38,15 @@
 // const superman = new superHero("Superman");
 // console.log(superman.getName());
 
-// const PizzaShop = require("./events");
+// Extending from EventEmitter
 
-// const pizzashop = new PizzaShop();
+/*const PizzaShop = require("./events");
 
-// pizzashop.on("order", (size, topping) => {
-//   console.log(`the pizza is ready of ${size} and ${topping}`);
-// });
+const pizzashop = new PizzaShop();
 
-// pizzashop.order("large", "mushroom");
-// pizzashop.displayOrderNumber();
+pizzashop.on("order", (size, topping) => {
+  console.log(`the pizza is ready of ${size} and ${topping}`);
+});
+
+pizzashop.order("large", "mushroom");
+pizzashop.displayOrderNumber();*/

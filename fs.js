@@ -1,34 +1,35 @@
-// fs Module
+// fs Module readFileSync and readFile
 
-// const { error } = require("node:console");
-// const fs = require("node:fs");
+/*const fs = require("node:fs");
 
-// console.log("First");
+console.log("First");
 
-// const filecontent = fs.readFileSync("./file.txt", "utf-8");
-// console.log(filecontent);
+const filecontent = fs.readFileSync("./file.txt", "utf-8");
+console.log(filecontent);
 
-// console.log("Second");
+console.log("Second");
 
-// fs.readFile("./file.txt", "utf-8", (error, data) => {
-//   if (error) {
-//     console.log(error);
-//   } else {
-//     console.log(data);
-//   }
-// });
+fs.readFile("./file.txt", "utf-8", (error, data) => {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log(data);
+  }
+});
 
-// console.log("Third");
+console.log("Third");*/
 
-// fs.writeFileSync("./greet.txt", "Hello World");
+// fs module writeFileSync and writeFile
 
-// fs.writeFile("./greet.txt", " Hello ken", { flag: "a" }, (err) => {
-//   if (err) {
-//     console.log(err);
-//   } else {
-//     console.log("File Written");
-//   }
-// });
+fs.writeFileSync("./greet.txt", "Hello World");
+
+fs.writeFile("./greet.txt", " Hello ken", { flag: "a" }, (err) => {
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("File Written");
+  }
+});
 
 // fs Promise Module
 

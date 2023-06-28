@@ -1,19 +1,23 @@
-// const EventEmitter = require("node:events")
+// Event Module examples 
 
-// const emitter = new EventEmitter()
+const EventEmitter = require("node:events")
 
-// emitter.on("order-pizza", (size,topping) => {
-//     console.log("The pizza is ready with ${size} and ${topping}")
-// })
+// A simple example of pizzashop where we place order and emit the event
 
-// emitter.on("order-pizza",(size)=>{
-//     if(size==="large"){
-//         console.log("serving a complimentry drink")
-//     }
-// })
-// emitter.emit("order-pizza", "large", "mushroom")
+/*const emitter = new EventEmitter()
 
-const EventEmitter = require("node:events");
+emitter.on("order-pizza", (size,topping) => {
+    console.log("The pizza is ready with ${size} and ${topping}")
+})
+
+emitter.on("order-pizza",(size)=>{
+    if(size==="large"){
+        console.log("serving a complimentry drink")
+    }
+})
+emitter.emit("order-pizza", "large", "mushroom")*/
+
+// Extending from EvenEmitter
 
 class PizzaShop extends EventEmitter {
   constructor() {
