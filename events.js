@@ -1,6 +1,6 @@
-// Event Module examples 
+// Event Module examples
 
-const EventEmitter = require("node:events")
+const EventEmitter = require("node:events");
 
 // A simple example of pizzashop where we place order and emit the event
 
